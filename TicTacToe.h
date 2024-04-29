@@ -155,7 +155,6 @@ class TicTacToe {
                     }
                     else {
                         boardSymbols[i] = temp;
-                        break;
                     }
                 }
             }
