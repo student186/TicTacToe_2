@@ -115,6 +115,8 @@ class TicTacToe {
                         cin >> selectedNum;
                         // check the validity of the new input number
                         while (!(selectedNum >= 1 && selectedNum <= 9)) {
+                            cin.clear();
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n');
                             cout << "\nPlease type in a valid number: ";
                             cin >> selectedNum;
                         }  
